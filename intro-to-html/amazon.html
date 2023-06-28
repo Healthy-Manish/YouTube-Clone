@@ -1,0 +1,67 @@
+<style>
+    .amazon{
+        font-size: 32px;
+    transition: background-color .15s;
+
+    }
+    .amazon:hover{
+        color: rgb(248, 73, 9);
+    }
+    .amazon:active{
+        opacity: .6;
+    }
+   .stock{
+    font-size: 34px;
+    font-weight: bold;
+    color: green;
+
+   }
+   .cart{
+    background-color: rgb(255, 208, 0);
+    border: none;
+    font-size: 30px;
+    height: 60px;
+    width: 250px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-right: 15px;
+    transition: background-color .2s;
+
+   }
+   .cart:hover{
+    background-color: rgb(250, 238, 7);
+
+   }
+   .cart:active{
+    opacity: .6;
+    transform: translateY(2px);
+   }
+   .buy{
+    background-color: rgb(255, 98, 0);
+    border: none;
+    font-size: 30px;
+    height: 60px;
+    width: 225px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-right: 15px;
+    transition: background-color .2s;
+   }
+   .buy:hover{
+    background-color: rgb(255, 140, 0);
+
+   }
+   .buy:active{
+    transform: translateY(2px);
+
+   }
+    </style>
+
+<a href="https://www.amazon.com" target="_blank" class="amazon">Back to Amazon</a>
+<br>
+<p style="font-size: 50px;"><b>Nike Black Running Shoes</b> </p>
+
+<p class="stock">$39 - in stock</p>
+<p style="font-size: 32px;font-weight: bold;">Free delivery tommorow.</p>
+<button class="cart">Add to cart</button>
+<button class="buy">Buy now</button>
